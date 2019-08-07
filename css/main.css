@@ -1,0 +1,137 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
+
+/*INITIALS*/
+:root {
+    --black01: #212529;
+    --white01: #f8f9fa;
+}
+* {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1em;
+    color: var(--black01)
+}
+
+/*FONTS*/
+/*font sizes*/
+.foSize-1rem {
+    font-size: 1rem;
+}
+.foSize-1_25rem {
+    font-size: 1.25rem;
+}
+.foSize-1_5rem {
+    font-size: 1.5rem;
+}
+.foSize-1_75rem {
+    font-size: 1.75rem;
+}
+.foSize-2rem {
+    font-size: 2rem;
+}
+.foSize-2_25rem {
+    font-size: 2.25rem;
+}
+.foSize-2_5rem {
+    font-size: 2.5rem;
+}
+.foSize-2_75rem {
+    font-size: 2.75rem;
+}
+
+/*font weights*/
+.foWeight-100 {
+    font-weight: 100;
+}
+.foWeight-300 {
+    font-weight: 300;
+}
+.foWeight-400 {
+    font-weight: 400;
+}
+.foWeight-700 {
+    font-weight: 700;
+}
+
+/*PROJECTS*/
+.filterTitle {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.filterTag {
+    margin: 0rem 0rem 10rem 1rem;
+    padding: .25rem 1rem .25rem 1rem;
+    border: 2px solid var(--black01);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    -webkit-transition: background-color .5s, color .5s;
+    transition: background-color .5s, color .5s;
+}
+.filterTag:first-of-type {
+    margin: 0;
+}
+.filterTag:hover {
+    color: var(--white01);
+    background-color: var(--black01);
+}
+.filterTagSelected {
+    color: var(--white01);
+    background-color: var(--black01);
+}
+
+
+/*PROJECTS*/
+.projectContainer {
+    background-color: var(--black01);
+    border: 2px solid var(--black01);
+
+    border-radius: 5px;
+    overflow: hidden;
+}
+.projectThumbnail {
+    background-color: var(--white);
+    width: 100%;
+}
+.projectDetails {
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    color: white;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    color: red;
+}
+.projectDetails:hover {
+    height: ;
+}
+.projectTitle {
+    color: var(--white01);
+    font-weight: 700;
+}
+.projectCategory {
+    color: var(--white01);
+}
+.projectViewOn {
+    color: var(--white01);
+    font-weight: 100;
+}
+
+/*IDS*/
+#contentDivider {
+    height: 20vh;
+}
+
+/*GENERAL*/
+body {
+    background-color: var(--white01);
+}
+a {
+    color: var(--black01) !important;
+    -webkit-transition: opacity.5s;
+    transition: opacity .5s;
+}
+a:hover {
+    opacity: .5;
+    text-decoration: none;
+}

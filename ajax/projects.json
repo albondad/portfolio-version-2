@@ -1,0 +1,21 @@
+{
+    "projects":
+    [
+        {
+            "title": "Four Favorites",
+            "tags": ["Web Development", "Highschool", "Assignment"],
+            "thumbnailSource": "imgs/thumbnail-fourFavorites.jpg",
+            "projectSource": "https://app.netlify.com/sites/albondad-fourfavorites/overview",
+            "viewOnType": "Github",
+            "viewOnSource": "https://github.com/albondad/site_fourFavorites"
+        },
+        {
+            "title": "Four Favorites",
+            "tags": ["Web Development", "Highschool", "Assignment"],
+            "thumbnailSource": "imgs/thumbnail-fourFavorites.jpg",
+            "projectSource": "https://app.netlify.com/sites/albondad-fourfavorites/overview",
+            "viewOnType": "Github",
+            "viewOnSource": "https://github.com/albondad/site_fourFavorites"
+        },
+    ]
+}
