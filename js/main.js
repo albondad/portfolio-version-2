@@ -64,7 +64,7 @@ function displayProjects() {
 //ON DOCUMENT LOAD
 $(function() {
 
-    $.getJSON("ajax/projects.json", function(file) {
+    $.getJSON("test.json", function(file) {
         var newProjects=file.projects;
         for (i=0; i<newProjects.length; i++) {
             projects.push(new Project(newProjects[i].title, newProjects[i].tags, newProjects[i].thumbnailSource, newProjects[i].projectSource, newProjects[i].viewOnType, newProjects[i].viewOnSource));
