@@ -9,7 +9,7 @@ var projectsData = [
     },
     {
         "title": "HydraForce DWG File Organizer",
-        "tags": ["Web", "Script"],
+        "tags": ["Script"],
         "thumbnailSource": "imgs/thumbnail-hydraForceDWGFileOrganizer.jpg",
         "projectSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer",
         "viewOnType": "GitHub",
