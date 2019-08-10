@@ -3,13 +3,21 @@
 
 /*INITIALS*/
 :root {
-    --black01: #212529;
+    --black01: black;
     --white01: #f8f9fa;
 }
 * {
     font-family: Roboto, Arial, sans-serif;
     font-size: 1em;
     color: var(--black01)
+}
+
+/*WIDTH*/
+.w-10 {
+    width: 10%;
+}
+.w-70 {
+    width: 70%;
 }
 
 /*FONTS*/
@@ -37,6 +45,12 @@
 }
 .foSize-2_75rem {
     font-size: 2.75rem;
+}
+.foSize-3rem {
+    font-size: 3rem;
+}
+.foSize-4rem {
+    font-size: 4rem;
 }
 
 /*font weights*/
@@ -85,14 +99,39 @@
 /*PROJECTS*/
 .projectContainer {
     background-color: var(--black01);
+    box-shadow: 0px 0px 2px grey;
+    /*
     border: 2px solid var(--black01);
-
     border-radius: 5px;
+    */
     overflow: hidden;
+    transition: -webkit-transform .5s;
+}
+.projectContainer:hover {
+    -webkit-transform: scale(1.02);
 }
 .projectThumbnail {
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
     background-color: var(--white);
     width: 100%;
+    -webkit-transition: -webkit-filter .5s, filter .5s;
+    transition: -webkit-filter .5s, filter .5s;
+}
+.projectThumbnail:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.projectThumbnailContainer:before {
+    content: "asdfasfd";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, white 70%, black);
+    opacity: .5;
 }
 .projectDetails {
     line-height: 1.5rem;
@@ -102,18 +141,18 @@
     transition: height .5s;
     color: red;
 }
-.projectDetails:hover {
-    height: ;
-}
 .projectTitle {
     color: var(--white01);
     font-weight: 700;
 }
 .projectCategory {
     color: var(--white01);
+    font-size: 1rem;
+    font-weight: 100;
 }
 .projectViewOn {
     color: var(--white01);
+    font-size: 1rem;
     font-weight: 100;
 }
 
@@ -121,17 +160,32 @@
 #contentDivider {
     height: 20vh;
 }
+#loadingScreen {
+    height: 100vh;
+}
+
+/*LINKS*/
+.link {
+    color: var(--black01);
+    -webkit-transition: opacity .5s;
+    transition opacity: .5s;
+}
+.link:hover {
+    color: var(--black01);
+    opacity: .5;
+    text-decoration: none;
+}
 
 /*GENERAL*/
 body {
     background-color: var(--white01);
 }
-a {
-    color: var(--black01) !important;
-    -webkit-transition: opacity.5s;
-    transition: opacity .5s;
+
+.test {
+    color: var(--white01);
 }
-a:hover {
-    opacity: .5;
-    text-decoration: none;
+
+/*INITALLY HIDE*/
+.showWhenLoaded {
+    opacity: 0;
 }

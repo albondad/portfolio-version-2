@@ -1,6 +1,3 @@
-8.3.2019
-
-
-Notes:
-trying using google youtube apis
-using ems
+AUTHOR: Al Bondad
+START DATE: August 3, 2019
+DESCRIPTION: This is an improved version of my portfolio website from my web development class, repurposed to be used to be posting future projects.
