@@ -232,6 +232,14 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo"
     },
     {
+        "title": "Just Survive",
+        "tags": ["Game"],
+        "thumbnailSource": "imgs/thumbnail-justSurvive.jpg",
+        "projectSource": "https://github.com/albondad/game_justSurvive",
+        "viewOnType": "GitHub",
+        "viewOnSource": "https://github.com/albondad/game_justSurvive"
+    },
+    {
         "title": "Medical Stent Visual",
         "tags": ["Animation"],
         "thumbnailSource": "imgs/thumbnail-medicalStentVisual.jpg",
