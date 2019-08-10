@@ -192,6 +192,54 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/game_boxxyRun"
     },
     {
+        "title": "Mousetrap",
+        "tags": ["Animation"],
+        "thumbnailSource": "imgs/thumbnail-mouseTrap.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=9RU7h6eln0s",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=9RU7h6eln0s"
+    },
+    {
+        "title": "Anti-Addiction Device",
+        "tags": ["Animation"],
+        "thumbnailSource": "imgs/thumbnail-antiAddictionDevice.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao"
+    },
+    {
+        "title": "Prison Packs 2017",
+        "tags": ["Montage"],
+        "thumbnailSource": "imgs/thumbnail-prisonPacks2017.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=pREOF4VgHGI",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=pREOF4VgHGI"
+    },
+    {
+        "title": "World's Fair, October 2017",
+        "tags": ["Montage"],
+        "thumbnailSource": "imgs/thumbnail-worldsFairOctober2017.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM"
+    },
+    {
+        "title": "Sandblast 2017",
+        "tags": ["Montage"],
+        "thumbnailSource": "imgs/thumbnail-sandblast2017.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo"
+    },
+    {
+        "title": "Medical Stent Visual",
+        "tags": ["Animation"],
+        "thumbnailSource": "imgs/thumbnail-medicalStentVisual.jpg",
+        "projectSource": "https://www.youtube.com/watch?v=9EbHwQtMgMo",
+        "viewOnType": "YouTube",
+        "viewOnSource": "https://www.youtube.com/watch?v=9EbHwQtMgMo"
+    },
+    {
         "title": "Low Poly Car",
         "tags": ["Timelapse"],
         "thumbnailSource": "imgs/thumbnail-lowPolyCar.jpg",
