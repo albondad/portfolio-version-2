@@ -32,8 +32,8 @@
         <div>
             <div class="container-fluid bg-black w-70 pl-2 pr-2">
                 <div class="row mt-4 foSize-2_5rem">
-                    <div class="col-md-12 col-lg-6 pl-2 foWeight-700 text-center text-lg-left">AL BONDAD <div class="foSize-1_5rem foWeight-100 d-none d-md-block">Developer | Animator | Editor</div></div>
-                    <div class="col-md-12 col-lg-6 p-0 pl-2 pr-2 d-lg-flex justify-content-end foSize-2_25rem foWeight-100 text-center text-lg-left">
+                    <div class="col-md-12 col-lg-6 p-0 pl-md-2 foWeight-700 text-center text-lg-left">AL BONDAD <div class="foSize-1_5rem foWeight-100 d-none d-md-block">Developer | Animator | Editor</div></div>
+                    <div class="col-md-12 col-lg-6 pl-2 pr-2 d-lg-flex justify-content-end foSize-2_25rem foWeight-100 text-center text-lg-left">
                         <a id="navigation_projects" href="#" class="link mr-0 mr-lg-4">Projects</a>
                         <a id="navigation_contacts" href="#" class="link">Contact</a>
                     </div>
@@ -67,14 +67,17 @@
 
     <!--LEAVE A MESSAGE-->
     <section id="section_leaveAMessage" class="initial_hide">
-        <div class="d-flex align-items-center justify-content-center mt-3 pb-5">
+        <div class="d-flex align-items-center justify-content-center mt-3 pt-5 pb-5">
             <div class="container-fluid bg-black w-70 p-0 d-flex justify-content-center">
                 <div class="col-8">
                     <div class="foWeight-700 mb-2 foSize-2rem">Leave A Message</div>
-                    <input class="w-100 mb-3" name="email" placeholder="email"></input>
-                    <input class="w-100 mb-3" name="subject" placeholder="subject"></input>
-                    <textarea class="w-100 mb-2" name="message" placeholder="message"></textarea>
-                    <button id="btn_submitMessage" name="submit" class="w-100">SUBMIT</button>
+                    <form id="frm_leaveAMessage" action="" method="POST">
+                        <input id="inp_email" class="w-100 mb-3" name="email" placeholder="email"></input>
+                        <input id="inp_subject" class="w-100 mb-3" name="subject" placeholder="subject"></input>
+                        <textarea id="txtArea_message" class="w-100 mb-2" name="message" placeholder="message"></textarea>
+                        <button id="btn_submitMessage" class="initial_hide w-100 mb-2" type="submit">SUBMIT</button>
+                    </form>
+                    <div id="txt_formError" class="w-100 text-center foSize-1_5rem"></div>
                 </div>
             </div>
         </div>
