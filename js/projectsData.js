@@ -11,9 +11,9 @@ var projectsData = [
         "title": "HydraForce DWG File Organizer",
         "tags": ["Script"],
         "thumbnailSource": "imgs/thumbnail-hydraForceDWGFileOrganizer.jpg",
-        "projectSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer",
+        "projectSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer?files=1",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer"
+        "viewOnSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer?files=1"
     },
     {
         "title": "Blast 2019",
@@ -29,7 +29,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-badSiteRemake.jpg",
         "projectSource": "https://albondad-badSiteRemake.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_badSiteRemake"
+        "viewOnSource": "https://GitHub.com/albondad/site_badSiteRemake?files=1"
     },
     {
         "title": "Shark Bank",
@@ -37,7 +37,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-sharkBank.jpg",
         "projectSource": "https://albondad-sharkBank.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_sharkBank"
+        "viewOnSource": "https://GitHub.com/albondad/site_sharkBank?files=1"
     },
     {
         "title": "WordPress Portfolio",
@@ -61,7 +61,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-guessWho.jpg",
         "projectSource": "https://albondad-guessWho.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_guessWho"
+        "viewOnSource": "https://GitHub.com/albondad/site_guessWho?files=1"
     },
     {
         "title": "Pizza Site",
@@ -69,7 +69,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-pizzaSite.jpg",
         "projectSource": "https://albondad-pizzaSite.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_pizzaSite"
+        "viewOnSource": "https://GitHub.com/albondad/site_pizzaSite?files=1"
     },
     {
         "title": "Band Page",
@@ -77,7 +77,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-bandPage.jpg",
         "projectSource": "https://albondad-bandPage.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_bandPage"
+        "viewOnSource": "https://GitHub.com/albondad/site_bandPage?files=1"
     },
     {
         "title": "Photography Website",
@@ -85,7 +85,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-photographyWebsite.jpg",
         "projectSource": "https://albondad-photographyWebsite.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_photographyWebsite"
+        "viewOnSource": "https://GitHub.com/albondad/site_photographyWebsite?files=1"
     },
     {
         "title": "CSS Grid Practice",
@@ -93,7 +93,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-cssGridPractice.jpg",
         "projectSource": "https://albondad-cssGridPractice.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_cssGridPractice"
+        "viewOnSource": "https://GitHub.com/albondad/site_cssGridPractice?files=1"
     },
     {
         "title": "Parallax Site",
@@ -101,7 +101,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-parallaxSite.jpg",
         "projectSource": "https://albondad-parallaxSite.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_parallaxSite"
+        "viewOnSource": "https://GitHub.com/albondad/site_parallaxSite?files=1"
     },
     {
         "title": "960 Grid Practice",
@@ -109,7 +109,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-960GridPractice.jpg",
         "projectSource": "https://albondad-960GridPractice.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_960GridPractice"
+        "viewOnSource": "https://GitHub.com/albondad/site_960GridPractice?files=1"
     },
     {
         "title": "Half Face",
@@ -117,7 +117,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-halfFace.jpg",
         "projectSource": "https://albondad-halfFace.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_halfFace"
+        "viewOnSource": "https://GitHub.com/albondad/site_halfFace?files=1"
     },
     {
         "title": "Two Movies Poster",
@@ -125,7 +125,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-twoMoviesPoster.jpg",
         "projectSource": "https://albondad-twoMoviesPoster.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_twoMoviePosters"
+        "viewOnSource": "https://GitHub.com/albondad/site_twoMoviePosters?files=1"
     },
     {
         "title": "Spot The Difference",
@@ -133,7 +133,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-spotTheDifference.jpg",
         "projectSource": "https://albondad-spotTheDifference.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_spotTheDifference"
+        "viewOnSource": "https://GitHub.com/albondad/site_spotTheDifference?files=1"
     },
     {
         "title": "Travel Site",
@@ -141,7 +141,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-travelSite.jpg",
         "projectSource": "https://albondad-travelSite.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_travelSite"
+        "viewOnSource": "https://GitHub.com/albondad/site_travelSite?files=1"
     },
     {
         "title": "John Lee Biography",
@@ -149,7 +149,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-johnLeeBiography.jpg",
         "projectSource": "https://johnLeeBiography.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_JohnLeeBiography"
+        "viewOnSource": "https://GitHub.com/albondad/site_JohnLeeBiography?files=1"
     },
     {
         "title": "Button Version 2",
@@ -157,7 +157,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-buttonv2.jpg",
         "projectSource": "https://albondad-button-v2.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_button_v2"
+        "viewOnSource": "https://GitHub.com/albondad/site_button_v2?files=1"
     },
     {
         "title": "Button Version 1",
@@ -165,7 +165,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-buttonv1.jpg",
         "projectSource": "https://albondad-button-v2.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_button_v1"
+        "viewOnSource": "https://GitHub.com/albondad/site_button_v1?files=1"
     },
     {
         "title": "Four Favorites",
@@ -173,7 +173,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-fourFavorites.jpg",
         "projectSource": "https://albondad-fourfavorites.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_fourFavorites"
+        "viewOnSource": "https://GitHub.com/albondad/site_fourFavorites?files=1"
     },
     {
         "title": "Screen Dimensions",
@@ -181,15 +181,15 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-screenDimensions.jpg",
         "projectSource": "https://albondad-screenDimensions.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_screenDimensions"
+        "viewOnSource": "https://GitHub.com/albondad/site_screenDimensions?files=1"
     },
     {
         "title": "Boxxy Run",
         "tags": ["Game"],
         "thumbnailSource": "imgs/thumbnail-boxxyRun.jpg",
-        "projectSource": "https://GitHub.com/albondad/game_boxxyRun",
+        "projectSource": "https://GitHub.com/albondad/game_boxxyRun?files=1",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/game_boxxyRun"
+        "viewOnSource": "https://GitHub.com/albondad/game_boxxyRun?files=1"
     },
     {
         "title": "Mousetrap",
@@ -235,9 +235,9 @@ var projectsData = [
         "title": "Just Survive",
         "tags": ["Game"],
         "thumbnailSource": "imgs/thumbnail-justSurvive.jpg",
-        "projectSource": "https://github.com/albondad/game_justSurvive",
+        "projectSource": "https://github.com/albondad/game_justSurvive?files=1",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://github.com/albondad/game_justSurvive"
+        "viewOnSource": "https://github.com/albondad/game_justSurvive?files=1"
     },
     {
         "title": "Medical Stent Visual",
