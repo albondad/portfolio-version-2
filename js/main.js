@@ -183,6 +183,8 @@ $(function() {
     });
 
     //dealing with leave a message section
+    $("#frm_leaveAMessage").attr("action", "https://formspree.io/albondad@gmail.com")
+    $("#btn_submitMessage").slideUp(0);
     $(".link_email").click(function() {
         if (!showLeaveAMessage) {
             $("#section_leaveAMessage").slideDown(500);
@@ -197,6 +199,19 @@ $(function() {
         if (showLeaveAMessage) {
             $("#section_leaveAMessage").slideUp(500);
             showLeaveAMessage = false;
+        }
+    });
+    $("#inp_email, #inp_subject, #txtArea_message").focusout(function() {
+        if ($("#inp_email").val() == "" || $("#inp_subject").val() == "" || $("#txtArea_message").val() == "") {
+            $("#btn_submitMessage").slideUp(500);
+        }
+        else if (!$("#inp_email").val().includes("@") || !$("#inp_email").val().includes(".")) {
+            $("#txt_formError").fadeTo(0, 0).html("please enter a proper email").fadeTo(500, 1);
+            $("#btn_submitMessage").slideUp(500);
+        }
+        else {
+            $("#txt_formError").fadeTo(500, 0).html("");
+            $("#btn_submitMessage").slideDown(500).fadeTo(500, 1);
         }
     });
 });
