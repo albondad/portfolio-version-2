@@ -1,5 +1,6 @@
 var projectsData = [
     {
+        "show": true,
         "title": "YouTube Channel Stats Tracker",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
@@ -8,6 +9,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_youTubeChannelStatsTracker?files=1"
     },
     {
+        "show": true,
         "title": "HydraForce DWG File Organizer",
         "tags": ["Script"],
         "thumbnailSource": "imgs/thumbnail-hydraForceDWGFileOrganizer.jpg",
@@ -16,6 +18,7 @@ var projectsData = [
         "viewOnSource": "https://github.com/albondad/script_hydraForceDWGFileOrganizer?files=1"
     },
     {
+        "show": true,
         "title": "Blast 2019",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-blast2019.jpg",
@@ -24,6 +27,7 @@ var projectsData = [
         "viewOnSource": "https://youtu.be/e8r2msCBbCQ"
     },
     {
+        "show": false,
         "title": "Bad Site Remake",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-badSiteRemake.jpg",
@@ -32,6 +36,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_badSiteRemake?files=1"
     },
     {
+        "show": false,
         "title": "Shark Bank",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-sharkBank.jpg",
@@ -40,6 +45,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_sharkBank?files=1"
     },
     {
+        "show": false,
         "title": "WordPress Portfolio",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-wordPressPortfolio.jpg",
@@ -48,6 +54,7 @@ var projectsData = [
         "viewOnSource": "https://crossingfitness.wordpress.com/"
     },
     {
+        "show": false,
         "title": "WordPress Client Site",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-wordPressClientSite.jpg",
@@ -56,6 +63,7 @@ var projectsData = [
         "viewOnSource": "https://crossingfitness.wordpress.com/"
     },
     {
+        "show": true,
         "title": "Guess Who",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-guessWho.jpg",
@@ -64,6 +72,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_guessWho?files=1"
     },
     {
+        "show": false,
         "title": "Pizza Site",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-pizzaSite.jpg",
@@ -72,6 +81,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_pizzaSite?files=1"
     },
     {
+        "show": false,
         "title": "Band Page",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-bandPage.jpg",
@@ -80,6 +90,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_bandPage?files=1"
     },
     {
+        "show": false,
         "title": "Photography Website",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-photographyWebsite.jpg",
@@ -88,6 +99,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_photographyWebsite?files=1"
     },
     {
+        "show": false,
         "title": "CSS Grid Practice",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-cssGridPractice.jpg",
@@ -96,6 +108,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_cssGridPractice?files=1"
     },
     {
+        "show": false,
         "title": "Parallax Site",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-parallaxSite.jpg",
@@ -104,6 +117,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_parallaxSite?files=1"
     },
     {
+        "show": false,
         "title": "960 Grid Practice",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-960GridPractice.jpg",
@@ -112,6 +126,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_960GridPractice?files=1"
     },
     {
+        "show": false,
         "title": "Half Face",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-halfFace.jpg",
@@ -120,6 +135,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_halfFace?files=1"
     },
     {
+        "show": false,
         "title": "Two Movies Poster",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-twoMoviesPoster.jpg",
@@ -128,6 +144,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_twoMoviePosters?files=1"
     },
     {
+        "show": false,
         "title": "Spot The Difference",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-spotTheDifference.jpg",
@@ -136,6 +153,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_spotTheDifference?files=1"
     },
     {
+        "show": false,
         "title": "Travel Site",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-travelSite.jpg",
@@ -144,6 +162,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_travelSite?files=1"
     },
     {
+        "show": false,
         "title": "John Lee Biography",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-johnLeeBiography.jpg",
@@ -152,6 +171,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_JohnLeeBiography?files=1"
     },
     {
+        "show": true,
         "title": "Button Version 2",
         "tags": ["Web", "Personal Project"],
         "thumbnailSource": "imgs/thumbnail-buttonv2.jpg",
@@ -160,6 +180,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_button_v2?files=1"
     },
     {
+        "show": true,
         "title": "Button Version 1",
         "tags": ["Web", "Personal Project"],
         "thumbnailSource": "imgs/thumbnail-buttonv1.jpg",
@@ -168,6 +189,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_button_v1?files=1"
     },
     {
+        "show": false,
         "title": "Four Favorites",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-fourFavorites.jpg",
@@ -176,6 +198,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_fourFavorites?files=1"
     },
     {
+        "show": true,
         "title": "Screen Dimensions",
         "tags": ["Web"],
         "thumbnailSource": "imgs/thumbnail-screenDimensions.jpg",
@@ -184,6 +207,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/site_screenDimensions?files=1"
     },
     {
+        "show": true,
         "title": "Boxxy Run",
         "tags": ["Game"],
         "thumbnailSource": "imgs/thumbnail-boxxyRun.jpg",
@@ -192,6 +216,7 @@ var projectsData = [
         "viewOnSource": "https://GitHub.com/albondad/game_boxxyRun?files=1"
     },
     {
+        "show": true,
         "title": "Mousetrap",
         "tags": ["Animation"],
         "thumbnailSource": "imgs/thumbnail-mouseTrap.jpg",
@@ -200,6 +225,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=9RU7h6eln0s"
     },
     {
+        "show": true,
         "title": "Anti-Addiction Device",
         "tags": ["Animation"],
         "thumbnailSource": "imgs/thumbnail-antiAddictionDevice.jpg",
@@ -208,6 +234,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao"
     },
     {
+        "show": true,
         "title": "Prison Packs 2017",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-prisonPacks2017.jpg",
@@ -216,6 +243,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=pREOF4VgHGI"
     },
     {
+        "show": true,
         "title": "World's Fair, October 2017",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-worldsFairOctober2017.jpg",
@@ -224,6 +252,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM"
     },
     {
+        "show": true,
         "title": "Sandblast 2017",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-sandblast2017.jpg",
@@ -232,6 +261,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo"
     },
     {
+        "show": true,
         "title": "Just Survive",
         "tags": ["Game"],
         "thumbnailSource": "imgs/thumbnail-justSurvive.jpg",
@@ -240,6 +270,7 @@ var projectsData = [
         "viewOnSource": "https://github.com/albondad/game_justSurvive?files=1"
     },
     {
+        "show": true,
         "title": "Medical Stent Visual",
         "tags": ["Animation"],
         "thumbnailSource": "imgs/thumbnail-medicalStentVisual.jpg",
@@ -248,6 +279,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=9EbHwQtMgMo"
     },
     {
+        "show": true,
         "title": "Low Poly Car",
         "tags": ["Timelapse"],
         "thumbnailSource": "imgs/thumbnail-lowPolyCar.jpg",
@@ -256,6 +288,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=TMrQG1m0Rmc"
     },
     {
+        "show": true,
         "title": "Low Poly Christmas Scene",
         "tags": ["Timelapse"],
         "thumbnailSource": "imgs/thumbnail-lowPolySimpleCharacter.jpg",
@@ -264,6 +297,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=AHysxTjh-X4"
     },
     {
+        "show": true,
         "title": "Low Poly Christmas Scene",
         "tags": ["Timelapse"],
         "thumbnailSource": "imgs/thumbnail-lowPolyChristmasScene.jpg",
@@ -272,6 +306,7 @@ var projectsData = [
         "viewOnSource": "https://www.youtube.com/watch?v=P7HtjaFSq2A"
     },
     {
+        "show": true,
         "title": "Stick Man Character",
         "tags": ["Timelapse"],
         "thumbnailSource": "imgs/thumbnail-stickManCharacter.jpg",

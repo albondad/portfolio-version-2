@@ -1,6 +1,7 @@
 //CLASSES
 class Project {
-    constructor(title, tags, thumbnailSource, projectSource, viewOnType, viewOnSource) {
+    constructor(show, title, tags, thumbnailSource, projectSource, viewOnType, viewOnSource) {
+        this.show = show;
         this.title = title;
         this.tags = tags;
         this.thumbnailSource = thumbnailSource;
@@ -9,6 +10,9 @@ class Project {
         this.viewOnSource = viewOnSource;
     }
     getHTML() {
+        if (!this.show) {
+            return ""
+        }
         var tagsToClassNames = "";
         for (i=0; i<this.tags.length; i++) {
             tagsToClassNames += " tag_" + this.tags[i].replace(/\s+/g, "-").toLowerCase();
@@ -55,7 +59,7 @@ function displayTags() {
 }
 function displayProjects() {
     for (i=0; i<projectsData.length; i++) {
-        projects.push(new Project(projectsData[i].title, projectsData[i].tags, projectsData[i].thumbnailSource, projectsData[i].projectSource, projectsData[i].viewOnType, projectsData[i].viewOnSource));
+        projects.push(new Project(projectsData[i].show, projectsData[i].title, projectsData[i].tags, projectsData[i].thumbnailSource, projectsData[i].projectSource, projectsData[i].viewOnType, projectsData[i].viewOnSource));
     }
     projects.forEach(function(project) {
         $("#projects").append(project.getHTML());
