@@ -37,8 +37,8 @@ class Project {
 var projects = [];
 var tags = ["Web", "App", "Script", "Game", "Montage", "Animation", "Timelapse"];
 var selectedTags = []
-var projectsShown = 0;
 var showViewOns = false;
+var showLeaveAMessage = false;
 
 
 //FUNCTIONS
@@ -58,9 +58,7 @@ function displayProjects() {
         projects.push(new Project(projectsData[i].title, projectsData[i].tags, projectsData[i].thumbnailSource, projectsData[i].projectSource, projectsData[i].viewOnType, projectsData[i].viewOnSource));
     }
     projects.forEach(function(project) {
-        projectsShown += 1;
         $("#projects").append(project.getHTML());
-        projectsShown = projects.length;
     });
 }
 function refreshProjects() {
@@ -95,6 +93,36 @@ $(function() {
     displayProjects();
     displayTags();
     updateShowViewOns();
+
+    //dealing with loading screen
+    var loadingAnimation = setInterval(function() {
+        if($("#txt_loading").text() == "loading") {
+            $("#txt_loading").html("loading.")
+        }
+        else if($("#txt_loading").text() == "loading.") {
+            $("#txt_loading").html("loading..")
+        }
+        else if($("#txt_loading").text() == "loading..") {
+            $("#txt_loading").html("loading...")
+        }
+        else if($("#txt_loading").text() == "loading...") {
+            $("#txt_loading").html("loading")
+        }
+    }, 500);
+    var checkIfIconsLoaded = setInterval(function() {
+        if ($("#lastIcon").html() != "") {
+            clearInterval(checkIfIconsLoaded);
+            setTimeout (function() {
+                $("#section_contacts").hide(0);
+                $("#section_leaveAMessage").fadeTo(0, 1).hide(0);
+                $("#section_loadingScreen").fadeTo(500, 0).hide(function() {
+                    $("#section_navigation").fadeTo(500, 1);
+                    $("#section_filters").fadeTo(500, 1);
+                    $("#section_projects").fadeTo(500, 1);
+                });
+            }, 1000);
+        }
+    }, 1000);
 
     //dealing with navigation links
     $("#navigation_contacts").click(function() {
@@ -154,34 +182,23 @@ $(function() {
         }
     });
 
-    //dealing with loading screen
-    var loadingAnimation = setInterval(function() {
-        if($("#txt_loading").text() == "loading") {
-            $("#txt_loading").html("loading.")
+    //dealing with leave a message section
+    $(".link_email").click(function() {
+        if (!showLeaveAMessage) {
+            $("#section_leaveAMessage").slideDown(500);
+            showLeaveAMessage = true;
         }
-        else if($("#txt_loading").text() == "loading.") {
-            $("#txt_loading").html("loading..")
+        else if (showLeaveAMessage) {
+            $("#section_leaveAMessage").slideUp(500);
+            showLeaveAMessage = false;
         }
-        else if($("#txt_loading").text() == "loading..") {
-            $("#txt_loading").html("loading...")
+    });
+    $("#btn_submitMessage, #navigation_projects").click(function() {
+        if (showLeaveAMessage) {
+            $("#section_leaveAMessage").slideUp(500);
+            showLeaveAMessage = false;
         }
-        else if($("#txt_loading").text() == "loading...") {
-            $("#txt_loading").html("loading")
-        }
-    }, 500);
-    var checkIfIconsLoaded = setInterval(function() {
-        if ($("#lastIcon").html() != "") {
-            clearInterval(checkIfIconsLoaded);
-            setTimeout (function() {
-                $("#section_contacts").hide(0);
-                $("#section_loadingScreen").fadeTo(500, 0).hide(function() {
-                    $("#section_navigation").fadeTo(500, 1);
-                    $("#section_filters").fadeTo(500, 1);
-                    $("#section_projects").fadeTo(500, 1);
-                });
-            }, 1000);
-        }
-    }, 1000);
+    });
 });
 
 

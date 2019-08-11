@@ -1,6 +1,7 @@
 /*IMPORTS*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
 
+
 /*INITIALS*/
 :root {
     --black01: black;
@@ -12,6 +13,7 @@
     color: var(--black01)
 }
 
+
 /*WIDTH*/
 .w-10 {
     width: 10%;
@@ -19,6 +21,7 @@
 .w-70 {
     width: 70%;
 }
+
 
 /*FONTS*/
 /*font sizes*/
@@ -53,6 +56,7 @@
     font-size: 4rem;
 }
 
+
 /*font weights*/
 .foWeight-100 {
     font-weight: 100;
@@ -67,7 +71,8 @@
     font-weight: 700;
 }
 
-/*PROJECTS*/
+
+/*FILTERS*/
 .filterTitle {
     font-size: 2.5rem;
     font-weight: 400;
@@ -89,6 +94,7 @@
 .filterTag:hover {
     color: var(--white01);
     background-color: var(--black01);
+    cursor: pointer;
 }
 .filterTagSelected {
     color: var(--white01);
@@ -113,7 +119,6 @@
 .projectThumbnail {
     -webkit-filter: grayscale(80%);
     filter: grayscale(80%);
-    background-color: var(--white);
     width: 100%;
     -webkit-transition: -webkit-filter .5s, filter .5s;
     transition: -webkit-filter .5s, filter .5s;
@@ -136,7 +141,7 @@
 .projectDetails {
     line-height: 1.5rem;
     font-size: 1.25rem;
-    color: white;
+    color: var(--white01);
     -webkit-transition: height .5s;
     transition: height .5s;
     color: red;
@@ -156,6 +161,21 @@
     font-weight: 100;
 }
 
+
+/*LINKS*/
+.link {
+    color: var(--black01);
+    -webkit-transition: opacity .5s;
+    transition opacity: .5s;
+    cursor: pointer;
+}
+.link:hover {
+    color: var(--black01);
+    opacity: .5;
+    text-decoration: none;
+}
+
+
 /*IDS*/
 #contentDivider {
     height: 20vh;
@@ -164,28 +184,36 @@
     height: 100vh;
 }
 
-/*LINKS*/
-.link {
-    color: var(--black01);
-    -webkit-transition: opacity .5s;
-    transition opacity: .5s;
+
+/*CLASSES*/
+.initial_hide {
+    opacity: 0;
 }
-.link:hover {
-    color: var(--black01);
-    opacity: .5;
-    text-decoration: none;
-}
+
 
 /*GENERAL*/
 body {
     background-color: var(--white01);
 }
-
-.test {
-    color: var(--white01);
+input, textarea{
+    padding: .25rem 1rem .25rem 1rem;
+    border: 2px solid var(--black01);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 3rem;
 }
-
-/*INITALLY HIDE*/
-.showWhenLoaded {
-    opacity: 0;
+button {
+    background-color: var(--black01);
+    border: 2px solid var(--black01);
+    border-radius: 5px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3rem;
+    -webkit-transition: opacity .5s;
+    transition opacity: .5s;
+}
+button:hover {
+    opacity: .5;
 }
