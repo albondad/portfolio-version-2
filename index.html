@@ -28,7 +28,7 @@
 
 
     <!--NAVIGATION-->
-    <section id="section_navigation" class="showWhenLoaded">
+    <section id="section_navigation" class="initial_hide">
         <div>
             <div class="container-fluid bg-black w-70 pl-2 pr-2">
                 <div class="row mt-4 foSize-2_5rem">
@@ -44,13 +44,13 @@
 
 
     <!--CONTENT DIVIDER-->
-    <section class="showWhenLoaded">
+    <section class="initial_hide">
         <div id="contentDivider"></div>
     </section>
 
 
     <!--CONTACTS-->
-    <section id="section_contacts" class="showWhenLoaded">
+    <section id="section_contacts" class="initial_hide">
         <div class="d-flex align-items-center justify-content-center">
             <div class="d-none d-sm-block">
                 <div class="d-flex align-items-center foSize-4rem foWeight-400"><a href="#"  target="_blank" class="link pr-1"><i class="fas fa-envelope fa-fw"></i> | Email</a></div>
@@ -65,9 +65,24 @@
         </div>
     </section>
 
+    <!--LEAVE A MESSAGE-->
+    <section id="section_leaveAMessage" class="">
+        <div class="d-flex align-items-center justify-content-center mt-3">
+            <div class="container-fluid bg-black w-70 p-0 d-flex justify-content-center">
+                <div class="col-8">
+                    <div class="foWeight-700 mb-2 foSize-2rem">Leave A Message</div>
+                    <input class="w-100 mb-3" name="email" placeholder="email"></input>
+                    <input class="w-100 mb-3" name="subject" placeholder="subject"></input>
+                    <textarea class="w-100 mb-2" name="message" placeholder="message"></textarea>
+                    <button id="btn_submitMessage" name="submit" class="w-100">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!--FILTERS-->
-    <section id="section_filters" class="showWhenLoaded">
+    <section id="section_filters" class="initial_hide">
         <div class="d-flex align-items-center justify-content-center">
             <div class="container-fluid bg-black w-70 pl-2 pr-2">
                 <div class="row">
@@ -82,7 +97,7 @@
 
 
     <!--PROJECTS-->
-    <section id="section_projects" class="showWhenLoaded">
+    <section id="section_projects" class="initial_hide">
         <div class="d-flex align-items-center justify-content-center mt-3">
             <div class="container-fluid bg-black w-70 pl-2 pr-2">
                 <div id="projects" class="row">
@@ -100,7 +115,11 @@
     <script src="js/projectsData.js"></script>
     <script src="js/main.js"></script>
 
-
+    <!--PHP-->
+    <?php
+        mail("contact@albondad.com", "test", "test");
+    ?>
+    <?php include 'php/main.php' ?>
 </body>
 
 </html>
