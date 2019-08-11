@@ -5,7 +5,7 @@ var projectsData = [
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
         "projectSource": "https://albondad-youTubeChannelStatsTracker.netlify.com",
         "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_youTubeChannelStatsTracker"
+        "viewOnSource": "https://GitHub.com/albondad/site_youTubeChannelStatsTracker?files=1"
     },
     {
         "title": "HydraForce DWG File Organizer",
