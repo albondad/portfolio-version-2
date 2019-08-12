@@ -19,48 +19,21 @@ var projectsData = [
     },
     {
         "show": true,
+        "title": "Highschool Assignments",
+        "tags": ["Web"],
+        "thumbnailSource": "imgs/thumbnail-highschoolAssignments.jpg",
+        "projectSource": "https://github.com/albondad/site_portfolio_v1?files=1",
+        "viewOnType": "GitHub",
+        "viewOnSource": "https://github.com/albondad/site_portfolio_v1?files=1"
+    },
+    {
+        "show": true,
         "title": "Blast 2019",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-blast2019.jpg",
         "projectSource": "https://youtu.be/e8r2msCBbCQ",
         "viewOnType": "YouTube",
         "viewOnSource": "https://youtu.be/e8r2msCBbCQ"
-    },
-    {
-        "show": false,
-        "title": "Bad Site Remake",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-badSiteRemake.jpg",
-        "projectSource": "https://albondad-badSiteRemake.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_badSiteRemake?files=1"
-    },
-    {
-        "show": false,
-        "title": "Shark Bank",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-sharkBank.jpg",
-        "projectSource": "https://albondad-sharkBank.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_sharkBank?files=1"
-    },
-    {
-        "show": false,
-        "title": "WordPress Portfolio",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-wordPressPortfolio.jpg",
-        "projectSource": "https://bondadportfolio.wordpress.com/",
-        "viewOnType": "Wordpress",
-        "viewOnSource": "https://crossingfitness.wordpress.com/"
-    },
-    {
-        "show": false,
-        "title": "WordPress Client Site",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-wordPressClientSite.jpg",
-        "projectSource": "https://crossingfitness.wordpress.com/",
-        "viewOnType": "Wordpress",
-        "viewOnSource": "https://crossingfitness.wordpress.com/"
     },
     {
         "show": true,
@@ -70,105 +43,6 @@ var projectsData = [
         "projectSource": "https://albondad-guessWho.netlify.com",
         "viewOnType": "GitHub",
         "viewOnSource": "https://GitHub.com/albondad/site_guessWho?files=1"
-    },
-    {
-        "show": false,
-        "title": "Pizza Site",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-pizzaSite.jpg",
-        "projectSource": "https://albondad-pizzaSite.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_pizzaSite?files=1"
-    },
-    {
-        "show": false,
-        "title": "Band Page",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-bandPage.jpg",
-        "projectSource": "https://albondad-bandPage.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_bandPage?files=1"
-    },
-    {
-        "show": false,
-        "title": "Photography Website",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-photographyWebsite.jpg",
-        "projectSource": "https://albondad-photographyWebsite.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_photographyWebsite?files=1"
-    },
-    {
-        "show": false,
-        "title": "CSS Grid Practice",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-cssGridPractice.jpg",
-        "projectSource": "https://albondad-cssGridPractice.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_cssGridPractice?files=1"
-    },
-    {
-        "show": false,
-        "title": "Parallax Site",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-parallaxSite.jpg",
-        "projectSource": "https://albondad-parallaxSite.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_parallaxSite?files=1"
-    },
-    {
-        "show": false,
-        "title": "960 Grid Practice",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-960GridPractice.jpg",
-        "projectSource": "https://albondad-960GridPractice.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_960GridPractice?files=1"
-    },
-    {
-        "show": false,
-        "title": "Half Face",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-halfFace.jpg",
-        "projectSource": "https://albondad-halfFace.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_halfFace?files=1"
-    },
-    {
-        "show": false,
-        "title": "Two Movies Poster",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-twoMoviesPoster.jpg",
-        "projectSource": "https://albondad-twoMoviesPoster.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_twoMoviePosters?files=1"
-    },
-    {
-        "show": false,
-        "title": "Spot The Difference",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-spotTheDifference.jpg",
-        "projectSource": "https://albondad-spotTheDifference.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_spotTheDifference?files=1"
-    },
-    {
-        "show": false,
-        "title": "Travel Site",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-travelSite.jpg",
-        "projectSource": "https://albondad-travelSite.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_travelSite?files=1"
-    },
-    {
-        "show": false,
-        "title": "John Lee Biography",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-johnLeeBiography.jpg",
-        "projectSource": "https://johnLeeBiography.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_JohnLeeBiography?files=1"
     },
     {
         "show": true,
@@ -187,15 +61,6 @@ var projectsData = [
         "projectSource": "https://albondad-button-v2.netlify.com",
         "viewOnType": "GitHub",
         "viewOnSource": "https://GitHub.com/albondad/site_button_v1?files=1"
-    },
-    {
-        "show": false,
-        "title": "Four Favorites",
-        "tags": ["Web"],
-        "thumbnailSource": "imgs/thumbnail-fourFavorites.jpg",
-        "projectSource": "https://albondad-fourfavorites.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_fourFavorites?files=1"
     },
     {
         "show": true,
