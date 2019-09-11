@@ -94,9 +94,9 @@ var projectsData = [
         "title": "Anti-Addiction Device",
         "tags": ["Animation"],
         "thumbnailSource": "imgs/thumbnail-antiAddictionDevice.jpg",
-        "projectSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao",
+        "projectSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM",
         "viewOnType": "YouTube",
-        "viewOnSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao"
+        "viewOnSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM"
     },
     {
         "show": true,
@@ -112,9 +112,9 @@ var projectsData = [
         "title": "World's Fair, October 2017",
         "tags": ["Montage"],
         "thumbnailSource": "imgs/thumbnail-worldsFairOctober2017.jpg",
-        "projectSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM",
+        "projectSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao",
         "viewOnType": "YouTube",
-        "viewOnSource": "https://www.youtube.com/watch?v=qZqZk6mMLwM"
+        "viewOnSource": "https://www.youtube.com/watch?v=E4y9j-xr4ao"
     },
     {
         "show": true,
