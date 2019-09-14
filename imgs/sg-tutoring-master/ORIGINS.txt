@@ -1,0 +1,3 @@
+AUTHOR: Juan Alejandro Dominguez Bondad V
+START DATE: August 2018
+DESCRIPTION: a reference website to help my friend with his development

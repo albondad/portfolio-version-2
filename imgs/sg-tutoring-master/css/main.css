@@ -1,0 +1,33 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/*INITIAL*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*FONTS*/
+/*font sizes*/
+.foSize-48px {
+    font-size: 48px;
+}
+.foSize-36px {
+    font-size: 36px;
+}
+.foSize-28px {
+    font-size: 28px;
+}
+.foSize-24px {
+    font-size: 24px;
+}
+.foSize-20px {
+    font-size: 20px;
+}
+.foSize-16px {
+    font-size: 16px;
+}
+
+/*BOOTSTRAP ELEMENTS*/
+.nav-link:hover {
+    opacity: .5;
+}
