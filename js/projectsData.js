@@ -28,21 +28,12 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "Button Clicker Version 2",
+        "title": "Button Clicker Version",
         "tags": ["Development", "Personal Project"],
         "thumbnailSource": "imgs/thumbnail-buttonv2.jpg",
         "projectSource": "https://albondad-button-v2.netlify.com",
         "viewOnType": "GitHub",
         "viewOnSource": "https://GitHub.com/albondad/site_button_v2?files=1"
-    },
-    {
-        "show": true,
-        "title": "Button Clicker Version 1",
-        "tags": ["Development", "Personal Project"],
-        "thumbnailSource": "imgs/thumbnail-buttonv1.jpg",
-        "projectSource": "https://albondad-button-v2.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_button_v1?files=1"
     },
     {
         "show": true,
