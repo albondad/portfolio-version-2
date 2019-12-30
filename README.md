@@ -1,7 +1,7 @@
 # Portfolio Version
 A portfolio to store some of my projects.
 
-# Tools Used
+# Tools
 jQuery - Animations/Transitions
 
 Bootstrap - Layout
