@@ -1,4 +1,4 @@
-# Portfolio Version 2.0
+# Portfolio Version
 A portfolio to store some of my projects.
 
 # Tools Used
