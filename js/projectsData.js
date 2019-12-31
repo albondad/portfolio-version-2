@@ -19,15 +19,6 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "Button Clicker",
-        "tags": ["Development", "Personal Project"],
-        "thumbnailSource": "imgs/thumbnail-buttonv2.jpg",
-        "projectSource": "https://albondad-button-v2.netlify.com",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://GitHub.com/albondad/site_button_v2?files=1"
-    },
-    {
-        "show": true,
         "title": "Mousetrap",
         "tags": ["Videography"],
         "thumbnailSource": "imgs/thumbnail-mouseTrap.jpg",
@@ -52,15 +43,6 @@ var projectsData = [
         "projectSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo",
         "viewOnType": "YouTube",
         "viewOnSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo"
-    },
-    {
-        "show": true,
-        "title": "Just Survive",
-        "tags": ["Development"],
-        "thumbnailSource": "imgs/thumbnail-justSurvive.jpg",
-        "projectSource": "https://github.com/albondad/Development_justSurvive?files=1",
-        "viewOnType": "GitHub",
-        "viewOnSource": "https://github.com/albondad/Development_justSurvive?files=1"
     },
     {
         "show": true,
