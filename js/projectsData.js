@@ -1,6 +1,15 @@
 var projectsData = [
     {
         "show": true,
+        "title": "Blok Scheduler",
+        "tags": ["Development"],
+        "thumbnailSource": "imgs/thumbnail-blokScheduler.jpg",
+        "projectSource": "https://albondad-blokScheduler.netlify.com",
+        "viewOnType": "GitHub",
+        "viewOnSource": "https://GitHub.com/albondad/site_blok-scheduler?files=1"
+    },
+    {
+        "show": true,
         "title": "YouTube Channel Stats Tracker",
         "tags": ["Development"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
