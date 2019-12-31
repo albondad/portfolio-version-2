@@ -37,15 +37,6 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "Sandblast 2017",
-        "tags": ["Videography"],
-        "thumbnailSource": "imgs/thumbnail-sandblast2017.jpg",
-        "projectSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo",
-        "viewOnType": "YouTube",
-        "viewOnSource": "https://www.youtube.com/watch?v=rXqKGpOlTYo"
-    },
-    {
-        "show": true,
         "title": "Medical Stent Visual",
         "tags": ["Videography"],
         "thumbnailSource": "imgs/thumbnail-medicalStentVisual.jpg",
