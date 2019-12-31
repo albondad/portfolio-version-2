@@ -40,7 +40,7 @@ class Project {
 //VARIABLES
 var projects = [];
 var tags = ["Development", "Videography"];
-var selectedTags = []
+var selectedTags = ["Development"]
 var showViewOns = false;
 var showLeaveAMessage = false;
 
