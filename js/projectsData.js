@@ -12,7 +12,7 @@ var projectsData = [
         "show": true,
         "title": "Block Scheduler Design",
         "tags": ["Design"],
-        "thumbnailSource": "imgs/thumbnail-blokScheduler.jpg",
+        "thumbnailSource": "imgs/thumbnail-blokSchedulerDesign.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212617702696902656",
         "viewOnType": "Upwork",
         "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212617702696902656"
@@ -21,7 +21,7 @@ var projectsData = [
         "show": true,
         "title": "Debatable",
         "tags": ["Design"],
-        "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
+        "thumbnailSource": "imgs/thumbnail-debatableDesign.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288",
         "viewOnType": "Upwork",
         "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288"
@@ -39,7 +39,7 @@ var projectsData = [
         "show": true,
         "title": "YouTube Channel Stats Tracker Design",
         "tags": ["Design"],
-        "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
+        "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTrackerDesign.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024",
         "viewOnType": "Upwork",
         "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024"
