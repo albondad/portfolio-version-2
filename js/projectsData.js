@@ -28,7 +28,7 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "YouTube Channel Stats Tracker",
+        "title": "YouTube Channel Statistics",
         "tags": ["Development"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
         "projectSource": "https://albondad-youTubeChannelStatsTracker.netlify.com",
@@ -37,7 +37,7 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "YouTube Channel Stats Tracker Design",
+        "title": "YouTube Channel Statistics Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTrackerDesign.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024",
