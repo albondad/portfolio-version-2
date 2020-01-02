@@ -43,4 +43,4 @@ var projectsData = [
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024",
         "viewOnType": "Upwork",
         "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024"
-    },
+    }
