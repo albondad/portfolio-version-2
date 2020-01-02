@@ -19,6 +19,15 @@ var projectsData = [
     },
     {
         "show": true,
+        "title": "Debatable",
+        "tags": ["Design"],
+        "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
+        "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288",
+        "viewOnType": "Upwork",
+        "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288"
+    },
+    {
+        "show": true,
         "title": "YouTube Channel Stats Tracker",
         "tags": ["Development"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
@@ -29,7 +38,7 @@ var projectsData = [
     {
         "show": true,
         "title": "YouTube Channel Stats Tracker Design",
-        "tags": ["Development"],
+        "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTracker.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024",
         "viewOnType": "Upwork",
