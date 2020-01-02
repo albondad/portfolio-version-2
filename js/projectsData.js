@@ -19,7 +19,7 @@ var projectsData = [
     },
     {
         "show": true,
-        "title": "Debatable",
+        "title": "Debatable Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-debatableDesign.jpg",
         "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288",
