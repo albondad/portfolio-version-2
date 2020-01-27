@@ -1,6 +1,15 @@
 var projectsData = [
     {
         "show": true,
+        "title": "Zaner Group Design",
+        "tags": ["Design"],
+        "thumbnailSource": "imgs/thumbnail-zanerGroupDesign.jpg",
+        "projectSource": "https://www.upwork.com/o/profiles/users/~014416684418a82ffe/?p=1216868011325612032",
+        "viewOnType": "Upwork",
+        "viewOnSource": "https://www.upwork.com/o/profiles/users/~014416684418a82ffe/?p=1216868011325612032"
+    },
+    {
+        "show": true,
         "title": "Block Scheduler",
         "tags": ["Development"],
         "thumbnailSource": "imgs/thumbnail-blokScheduler.jpg",
