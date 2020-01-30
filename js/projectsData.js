@@ -4,9 +4,9 @@ var projectsData = [
         "title": "Zaner Group Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-zanerGroupDesign.jpg",
-        "projectSource": "https://www.upwork.com/o/profiles/users/~014416684418a82ffe/?p=1216868011325612032",
-        "viewOnType": "Upwork",
-        "viewOnSource": "https://www.upwork.com/o/profiles/users/~014416684418a82ffe/?p=1216868011325612032"
+        "projectSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link",
+        "viewOnType": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link"
     },
     {
         "show": true,
@@ -22,18 +22,18 @@ var projectsData = [
         "title": "Block Scheduler Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-blokSchedulerDesign.jpg",
-        "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212617702696902656",
-        "viewOnType": "Upwork",
-        "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212617702696902656"
+        "projectSource": "https://www.instagram.com/p/B79FDm6gE38/?utm_source=ig_web_copy_link",
+        "viewOnType": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79FDm6gE38/?utm_source=ig_web_copy_link"
     },
     {
         "show": true,
         "title": "Debatable Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-debatableDesign.jpg",
-        "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288",
-        "viewOnType": "Upwork",
-        "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212616445215244288"
+        "projectSource": "https://www.instagram.com/p/B79EsRwAJTF/?utm_source=ig_web_copy_link",
+        "viewOnType": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79EsRwAJTF/?utm_source=ig_web_copy_link"
     },
     {
         "show": true,
@@ -49,8 +49,8 @@ var projectsData = [
         "title": "YouTube Channel Statistics Design",
         "tags": ["Design"],
         "thumbnailSource": "imgs/thumbnail-youTubeChannelStatsTrackerDesign.jpg",
-        "projectSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024",
-        "viewOnType": "Upwork",
-        "viewOnSource": "https://www.upwork.com/o/profiles/users/_~014416684418a82ffe/?p=1212618701374849024"
+        "projectSource": "https://www.instagram.com/p/B79EewGAH4c/?utm_source=ig_web_copy_link",
+        "viewOnType": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79EewGAH4c/?utm_source=ig_web_copy_link"
     }
 ]
