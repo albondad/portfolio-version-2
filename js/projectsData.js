@@ -20,7 +20,7 @@ var projectsData = [
     {
         "show": true,
         "title": "Gyst Audio, Email Template Editor",
-        "tags": ["Design"],
+        "tags": ["Development"],
         "thumbnailSource": "imgs/thumbnail_gystAudioEmailTemplateEditor.jpg",
         "projectSource": "https://albondad-gystaudio-emailchallenge.netlify.com/",
         "viewOnType": "GitHub",
