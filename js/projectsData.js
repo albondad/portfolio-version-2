@@ -3,10 +3,28 @@ var projectsData = [
         "show": true,
         "title": "Zaner Group Design",
         "tags": ["Design"],
-        "thumbnailSource": "imgs/thumbnail-zanerGroupDesign.jpg",
+        "thumbnailSource": "imgs/thumbnail_zanerDesign.jpg",
         "projectSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link",
         "viewOnType": "Instagram",
         "viewOnSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link"
+    },
+    {
+        "show": true,
+        "title": "Gyst Audio, Email Template Design",
+        "tags": ["Design"],
+        "thumbnailSource": "imgs/thumbnail_gystAudioEmailTemplateDesign.jpg",
+        "projectSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link",
+        "viewOnType": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79FTZhASrW/?utm_source=ig_web_copy_link"
+    },
+    {
+        "show": true,
+        "title": "Gyst Audio, Email Template Editor",
+        "tags": ["Design"],
+        "thumbnailSource": "imgs/thumbnail_gystAudioEmailTemplate.jpg",
+        "projectSource": "https://albondad-gystaudio-emailchallenge.netlify.com/",
+        "viewOnType": "GitHub",
+        "viewOnSource": "https://github.com/albondad/web_gystAudio_emailChallengeEditor"
     },
     {
         "show": true,
