@@ -8,6 +8,7 @@ var projectsData = [
         "viewOnType": "Instagram",
         "viewOnSource": "https://www.instagram.com/p/B8YGRavpGq4/"
     },
+    /*
     {
         "show": true,
         "title": "Gyst Audio, Email Template Design",
@@ -26,6 +27,7 @@ var projectsData = [
         "viewOnType": "GitHub",
         "viewOnSource": "https://github.com/albondad/web_gystAudio_emailChallengeEditor"
     },
+    */
     {
         "show": true,
         "title": "Block Scheduler",
