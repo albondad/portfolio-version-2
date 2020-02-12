@@ -5,4 +5,3 @@ A portfolio to store some of my projects.
 jQuery - Animations/Transitions
 
 Bootstrap - Layout
-asdfasdfdasfasdfasdf
